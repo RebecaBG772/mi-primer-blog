@@ -1,19 +1,24 @@
 # COMANDOS
 para activar el ambiente virtaul
 
-cd (nombre de la carpeta) ejemplo cd Documents
+1. dir (es para ver las carepts que hay en mi ordenador)
+
+2. cd (nombre de la carpeta) ejemplo cd Documents
 
 mkdir djangogirls (es para crear una carpeta)
 
-cd djangirls 
+3. cd djangirls 
 
 python -m venv myvenv (para crear el ambiente virtaul)
 
-dir (es para ver las carepts que hay en mi ordenador)
+usar siempre despues de abrir la craptea de django girls
+4. myvenv\Scripts\activate
 
-python manage.py runserver (para correr el servidor)
+5. python manage.py runserver (para correr el servidor)
 
 direccion IP del servidor (http://127.0.0.1:8000/)
+
+
 
  ctrl c para apagar el servidor 
 
@@ -49,5 +54,3 @@ git push -u origin master
 
 porque en tu captura la rama se llama master, no main.)
 
-usar siempre despues de barir la craptea de django girls
-myvenv\Scripts\activate
