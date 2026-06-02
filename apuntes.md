@@ -39,18 +39,22 @@ git clone https://github.com/USERNAME/REPO.git
 Username: RebecaBG772
 Password: YOUR-PERSONAL-ACCESS-TOKEN
 
-git status (Muestra el estado del proyecto: qué archivos fueron modificados, agregados o pendientes de guardar en Git. Se usa MUCHAS veces)
-git add . (Agrega todos los archivos modificados al área de preparación (“staging”) para incluirlos en el próximo commit. Se usa cada vez que quieras guardar nuevos cambios.)
-git commit -m "Primer commit" (Guarda oficialmente una versión de tus cambios con un mensaje descriptivo.Se usa cada vez que completes cambios importantes o quieras guardar progreso.)
+1. git status (Muestra el estado del proyecto: qué archivos fueron modificados, agregados o pendientes de guardar en Git. Se usa MUCHAS veces)
+
+2. git add . (Agrega todos los archivos modificados al área de preparación (“staging”) para incluirlos en el próximo commit. Se usa cada vez que quieras guardar nuevos cambios.)
+
+3. Antes de subir todos los archivos, vamos a comprobar qué se subirá (todos los archivos que se subirán deberían aparecer ahora en verde) usar otra vez git status
+
+4. git commit -m "Primer commit" (Guarda oficialmente una versión de tus cambios con un mensaje descriptivo.Se usa cada vez que completes cambios importantes o quieras guardar progreso.)
+
+5. Una vez hecho eso, subimos (empujamos) nuestros cambios a GitHub:git push
+
 git remote add origin https://github.com/TU-USUARIO/TU-REPOSITORIO.git (Conecta tu proyecto local con el repositorio de GitHub. Normalmente se usa UNA SOLA VEZ por proyecto.
 Si lo vuelves a ejecutar puede aparecer:
 remote origin already exists.)
+
 git push -u origin main (Envía tu proyecto y commits desde tu computador hacia GitHub.
 🔁 Se usa muchas veces, cada vez que quieras subir cambios nuevos a GitHub.
 
-⚠️ En tu caso probablemente debes usar:
 
-git push -u origin master
-
-porque en tu captura la rama se llama master, no main.)
 
