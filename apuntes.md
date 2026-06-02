@@ -57,4 +57,17 @@ git push -u origin main (Envía tu proyecto y commits desde tu computador hacia 
 🔁 Se usa muchas veces, cada vez que quieras subir cambios nuevos a GitHub.
 
 
+SI NO APARECEN CAMBIOS EN LA WEB USAR
+4. Reinicia el servidor, en la terminal donde corre Django, presiona en el cmd:
+
+Ctrl + C
+
+y luego:
+
+python manage.py runserver
+
+5. En el navegador usa:
+
+Ctrl + F5
+para evitar que el navegador use una versión guardada en caché.
 
